@@ -1,0 +1,373 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.big-heading2 {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-family: "Comfortaa";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #1E3264;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Chela One";
+  font-size: 4rem;
+  font-weight: medium;
+  color: #0e9aa7;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #f96d80;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 120%;
+  position: absolute;
+}
+
+/* Features Section */
+
+.feature-title{
+  font-family: "Arima Madurai";
+  font-size: 2rem;
+  text-align: center;
+}
+
+.feature-txt{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.feature3-img{
+  width: 25%;
+  position: absolute;
+  left: 300px;
+}
+
+.feature2-txt{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #1E3264;
+}
+
+.testimonial-title, .big-heading {
+  font-family: Yeseva One;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 50px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: Changa One;
+}
+
+.testimonial-text2, .normal-price {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 20px;
+  color: #F9F871;
+  font-family: Neucha;
+}
+
+.promo-price{
+  font-size: 3rem;
+}
+
+.normal-price, .promo-price{
+  text-align: left;
+  font-family: Crete Round;
+}
+
+.hardcover-image {
+  width: 40%;
+  float: left;
+  position: relative;
+  margin: 0px 100px;
+}
+
+.softcover-image {
+  width: 40%;
+  float: left;
+  position: relative;
+  margin: 54px;
+}
+
+#press {
+  background-color: #1E3264;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+.press-logo {
+  color: #f572a1;
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 5rem;
+  font-weight: medium;
+  padding-bottom: 5%;
+}
+
+.nama-maba-p{
+  color: #f572a1;
+  text-align: center;
+  font-family: "Waiting for the Sunrise";
+  font-size: 3rem;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  font-weight: bold;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.skill-row-left-title {
+  width: 75%;
+  left: 100px;
+  margin: 50px;
+  text-align: left;
+}
+
+.skill-row-left {
+  width: 100%;
+  left: 100px;
+  margin: 50px;
+  text-align: left;
+}
+
+.skill-row-right {
+  width: 100%;
+  right: 100px;
+  margin: 50px 0px;
+  text-align: right;
+}
+
+.sell-txt{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.selling-txt{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-title{
+  font-family: "Arima Madurai";
+}
+
+.pancake-img, .pearl-img, .tea-img, .feature1-img {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cake-img, .coffee-img, .feature2-img{
+  width: 40%;
+  right: 100px;
+  float: right;
+  margin-left: 0px;
+}
+
+.coffee-img{
+  width: 25%;
+}
+/* CTA Section */
+
+.big-heading{
+  color: white;
+}
+
+/* Footer Section */
+
+.contact-link {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  margin: 50px;
+  border-radius: 8px;
+  font-family: 'Karma', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.greeting{
+  text-align: center;
+}
+
+.foto-maba-img{
+  width: 30%;
+}
+
+.foto-filkom-img{
+  width: 30%;
+}
+.regard{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "Bad Script";
+  color: #D1A617;
+  font-weight: bold;
+  padding-top: -5%;
+}
+
+.regard2{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Bad Script";
+  color: #D1A617;
+  font-weight: bold;
+  padding-top: -2%;
+  padding-bottom: 10%;
+}
+
+.gif-1{
+  width: 30%;
+}
+
+.gif-2{
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.pendamping-img{
+  width: 40%;
+}
